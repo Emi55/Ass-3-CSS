@@ -1,0 +1,152 @@
+@charset "UTF-8";
+header{
+  background-image: url(../images/awesomefest3.jpg);
+  background-repeat: none;
+  display: flex;
+  background-attachment: fixed;
+  padding-bottom: 0%;
+}
+
+* {
+  box-sizing: border-box; 
+}
+@font-face {
+  font-family: 'amblebold';
+  src: url('../asset/fonts/Amble-Bold-webfont.eot');
+  src: url('../asset/fonts/Amble-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../asset/fonts/Amble-Bold-webfont.woff2') format('woff2'),
+       url('../asset/fonts/Amble-Bold-webfont.woff') format('woff'),
+       url('../asset/fonts/Amble-Bold-webfont.ttf') format('truetype'),
+       url('../asset/fonts/Amble-Bold-webfont.svg#amblebold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+html{
+  color:white;
+  font-size: 10px;
+  font-family:'amblebold', sans-serif;
+  line-height: 1;
+  font-weight: lighter;
+  background-image: linear-gradient(turquoise,skyblue)
+}
+.wrapper {
+  width: 100%; 
+  padding: 0 10%; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+
+h1{
+  color: black;
+font-family: 'Acme', sans-serif;
+font-size: 7rem;
+font-weight: lighter;
+}
+
+h2{
+  color: black;
+  font-family: 'Acme', sans-serif;
+font-size: 5rem;
+font-weight: lighter;
+}
+
+p,
+ol,
+ul{
+font-size: 2rem;
+}
+
+footer p{
+font-size: 1.4 rem;
+}
+
+/* header sutom font style */
+header{
+  text-align: center;
+}
+
+header h1{
+  margin-bottom: 0;
+}
+
+header h2{
+  color: darkblue;
+  font-size: 3rem;
+  margin-top: 10px;
+}
+
+/* style links */
+
+a{
+  line-height: 1.8;
+  outline: none;
+  text-decoration:none;
+  padding:2px 1px 0;
+}
+
+a:link{
+color: dodgerblue;
+}
+
+
+a:visited{
+color: lavender;
+}
+
+a:focus{
+border-bottom: 1px solid;
+background-color: dodgerblue;
+}
+a:hover{
+  border-bottom: 1px solid;
+  background-color: lightskyblue;
+}
+
+a:active{
+background-color: lightpink;
+color: honeydew;
+}
+
+/* links as button */
+
+nav ul{
+  width: 100%;
+
+}
+
+nav ul{
+  display: inline-block;
+}
+
+nav a{
+outline: none;
+text-decoration:none;
+width: 30%;
+margin-right:3%;
+text-align: center;
+line-height: 2;
+}
+
+
+/* Style List */
+
+ul
+{
+  list-style-type: square;
+  list-style-position: inside;
+  list-style-image: none;
+  background-position: 0 50%;
+  background-size: 1.8rem;
+  background-repeat: no-repeat;
+}
+
+ol{
+  list-style-type: decimal;
+}
+
+nav ul li{
+  list-style-type: none;
+}
+
